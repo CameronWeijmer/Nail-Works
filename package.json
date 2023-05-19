@@ -1,0 +1,14 @@
+{
+  "name": "nail_spa",
+  "version": "1.0.0",
+  "description": "Nail Website",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./css/index.css -o ./css/main.css --watch"
+  },
+  "author": "Cameron Weijmer",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
