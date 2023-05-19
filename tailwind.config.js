@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     colors: {
       beige: "#c7a693",
+      "dark-blue": "#111827",
       black: "#000",
       silver: "#c0c0c0",
       peach: "#ffe5b4",
