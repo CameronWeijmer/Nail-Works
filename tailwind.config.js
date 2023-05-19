@@ -21,6 +21,10 @@ module.exports = {
         999: "#100c0c",
       },
     },
+    fontFamily: {
+      primary: ["Playfair Display", '"serif"'],
+      secondary: ['"Proxima Nova Condensed"', "'sans-serif'"],
+    },
   },
   plugins: [],
 };
