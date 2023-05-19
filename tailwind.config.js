@@ -2,6 +2,7 @@ module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
     colors: {
+      beige: "#c7a693",
       black: "#000",
       silver: "#c0c0c0",
       peach: "#ffe5b4",
