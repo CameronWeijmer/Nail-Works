@@ -7,10 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- flowbite link -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
+    <!-- fonts -->
     <link href="https://fonts.cdnfonts.com/css/proxima-nova-condensed" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- style Link  -->
     <link rel="stylesheet" href="./css/main.css" />
     <title>Nails & SPA</title>
@@ -70,21 +73,37 @@
         <!-- prices -->
         <section>
             <div class="flex justify-center pt-32">
-                <h2 class="font-primary text-6xl">Bestseller</h2>
+                <h2 class="font-primary text-6xl">Bestseller.</h2>
             </div>
             <hr class="w-1/2 h-0.5 mx-auto my-4 bg-black border-0 rounded md:my-10">
             <div class="flex justify-center">
                 <div class="grid grid-cols2 gap-4">
-                    <h2 class="font-primary text-4xl">Maniküre</h2>
+                    <h2 class="font-primary text-beige text-4xl">Maniküre | 60 .-</h2>
                     <p class="font-secondary text-2xl max-w-sm">Verwöhne deine Hände mit einer professionellen Maniküre.
-                        |
-                        60 .-</p>
+                    </p>
                 </div>
                 <div class="grid grid-cols2 gap-4">
-                    <h2 class="font-primary text-4xl">Pediküre</h2>
+                    <h2 class="font-primary text-4xl text-beige">Pediküre | 50 .-</h2>
                     <p class="font-secondary text-2xl max-w-sm"> Gönn deinen Füßen eine entspannende Pediküre.
-                        |
-                        50 .-</p>
+                    </p>
+                </div>
+            </div>
+            <div class="flex justify-center pt-32">
+                <h2 class="font-primary text-6xl">Kombi Angebot.</h2>
+            </div>
+            <hr class="w-1/2 h-0.5 mx-auto my-4 bg-black border-0 rounded md:my-10">
+            <div class="flex justify-center">
+                <div>
+                    <h2 class="font-primary text-4xl text-beige">Maniküre + Pediküre | 100 .-</h2>
+                </div>
+            </div>
+            <div>
+                <div class="flex justify-center pb-32">
+                    <p class="font-secondary text-2xl my-4">Erlebe die ultimative Verwöhnung für Hände und Füße
+                        in
+                        einem
+                        Paket.
+                    </p>
                 </div>
             </div>
 
@@ -92,6 +111,11 @@
     </main>
     <!-- flowbite script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
